@@ -12,16 +12,35 @@ code {
     monospace;
 }
 
-.fixed {
-  height: 100vh;
+.headerFixed {
+  background-color: #CCC;
 }
 
-.card-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.divTitle, .divFooter {
+  background-color: #fff;
 }
 
 .card-header, .card-footer {
   font-weight: bold;
+}
+
+.card-body {
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  justify-items: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.fixedBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed {
+  background-image: url('https://storage.googleapis.com/chile-travel-newsite-static-content/2021/07/Naturaleza_parques-y-reservas-nacionales_5.jpg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
 }

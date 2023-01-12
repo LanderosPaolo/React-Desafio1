@@ -15,6 +15,21 @@
         "description": "Abrevadero"
     },
     {
+        "url": "https://cdn.pixabay.com/photo/2017/08/24/22/37/gyrfalcon-2678684_960_720.jpg",
+        "name": "Halcón",
+        "description": "Ave rapaz"
+    },
+    {
+        "url": "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "León",
+        "description": "Carnivoro"
+    },
+    {
+        "url": "https://images.pexels.com/photos/16040/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "name": "Rinoceronte",
+        "description": "Rinocerótidos"
+    },
+    {
         "fDesc": "Todos los derechos reservados"
     },
     {
