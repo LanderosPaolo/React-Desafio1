@@ -27,7 +27,7 @@ return (
         <Cards url={card5.url} name={card5.name} description={card5.description}/>
         <Cards url={card6.url} name={card6.name} description={card6.description}/>
       </Card.Body>
-      <Footer className="text-muted footerFixed" footer={footer.fDesc}/>
+      <Footer className="text-muted" footer={footer.fDesc}/>
     </Card>
   );
 }
