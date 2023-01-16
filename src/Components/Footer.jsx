@@ -1,9 +1,9 @@
 import Card from 'react-bootstrap/Card';
 
-const Footer = ({footer}) => {
+const Footer = (props) => {
     return (
         <div className='divFooter'>
-            <Card.Footer className="text-muted">{footer}</Card.Footer>
+            <Card.Footer className="text-muted">{props.footer}</Card.Footer>
         </div>
     )
 }

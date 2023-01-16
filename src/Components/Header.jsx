@@ -1,9 +1,9 @@
 import Card from 'react-bootstrap/Card';
 
-const Title = ({title}) => {
+const Title = (props) => {
     return (
         <div className='divTitle'>
-            <Card.Header>{title}</Card.Header>
+            <Card.Header>{props.title}</Card.Header>
         </div>
     )
 }
